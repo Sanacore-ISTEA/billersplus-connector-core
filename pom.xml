@@ -219,16 +219,6 @@
 
 	<distributionManagement>
 		<repository>
-			<id>sepsa-nexus</id>
-			<name>Sepsa Releases</name>
-			<url>http://srvbparg0437.wu:8081/nexus/content/repositories/Releases.WU/</url>
-		</repository>
-		<snapshotRepository>
-			<id>sepsa-snapshots-nexus</id>
-			<name>Sepsa Releases</name>
-			<url>http://srvbparg0437.wu:8081/nexus/content/repositories/Snapshots.WU/</url>
-		</snapshotRepository>
-		<repository>
             <id>Artifacts_Conectores</id>
             <url>https://wuarg.pkgs.visualstudio.com/Conectores/_packaging/Artifacts_Conectores/maven/v1</url>
  		    <releases>
@@ -238,7 +228,6 @@
     			<enabled>true</enabled>
 			</snapshots>
 		</repository>
-
 	</distributionManagement>
 
 	<repositories>
