@@ -233,7 +233,7 @@
 	<repositories>
 
 		<!-- Agregar el repositorio remoto publico de JBOSS -->
-        <repository>    
+        <!-- <repository>    
             <id>jboss-public-repository-group</id>    
             <name>JBoss Public Repository Group</name>    
             <url>https://repository.jboss.org/nexus/content/groups/public/</url>    
@@ -246,10 +246,10 @@
                 <enabled>true</enabled>    
                 <updatePolicy>never</updatePolicy>    
             </snapshots>    
-        </repository>  
+        </repository>   -->
 
         <!-- Agregar el repositorio remoto Feed Azure Artifacts-->
-		<repository>
+		<!-- <repository>
 			<id>Artifacts_Conectores</id>
 			<url>https://pkgs.dev.azure.com/LaboratorioTesting/Conectores/_packaging/Artifacts_Conectores/maven/v1</url>
 			<releases>
@@ -260,7 +260,7 @@
 			</snapshots>
 		</repository>
 		
-	</repositories>
+	</repositories> -->
 
 	<build>
 		<plugins>
