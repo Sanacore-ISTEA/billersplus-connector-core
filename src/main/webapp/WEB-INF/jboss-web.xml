@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<jboss-web>
+	<context-root>wu-connector-cashin-standard</context-root>
+</jboss-web>
