@@ -416,5 +416,36 @@
 	<scm>
 		<developerConnection>TODO: Completar</developerConnection>
 	</scm>
+	<distributionManagement>
+		<repository>
+			<id>public</id>
+			<url>http://192.168.0.137:8081/nexus/content/repositories/releases/</url>
+			<releases>
+			  <enabled>true</enabled>
+			</releases>
+			<snapshots>
+			  <enabled>true</enabled>
+			</snapshots>
+		  </repository>
+	</distributionManagement>
+	
+        <repositories>
 
+                <!-- Agregar el repositorio remoto publico de JBOSS -->
+        <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://192.168.0.137:8081/nexus/content/groups/public/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </repository>
+
+        </repositories>
 </project>
