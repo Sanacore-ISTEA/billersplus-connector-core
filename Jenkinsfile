@@ -7,7 +7,7 @@ stages {
         sh 'mvn test'
       }
     }
-    stage('Build') {
+    stage('package') {
       steps {
         sh 'mvn package'
       }
