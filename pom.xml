@@ -35,7 +35,7 @@
 	</dependencyManagement>
 	<distributionManagement>
 		<repository>
-			<id>public</id>
+			<id>releases</id>
 			<url>http://192.168.0.137:8081/nexus/content/repositories/releases/</url>
 			<releases>
 			  <enabled>true</enabled>
