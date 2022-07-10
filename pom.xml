@@ -217,18 +217,7 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
-		<repository>
-			<id>Artifacts_Conectores</id>
-			<url>https://pkgs.dev.azure.com/LaboratorioTesting/Conectores/_packaging/Artifacts_Conectores/maven/v1</url>
-			<releases>
-			  <enabled>true</enabled>
-			</releases>
-			<snapshots>
-			  <enabled>true</enabled>
-			</snapshots>
-		  </repository>
-	</distributionManagement>
+
 
 	<distributionManagement>
 		<repository>
